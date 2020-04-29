@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFILE</title>
+    <style>
+        body{
+            margin:0px;
+            padding:0px;
+            background-image:url('im/nat.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+           
+            
+            
+        }
+        .left{
+
+display: inline-block;
+position:absolute;
+            left: 34px;
+        top:20px;
+        
+
+        }
+        .mid{
+            display:block;
+            width:36%;
+            margin: 20px auto;
+           
+    
+        }
+        .right{
+            position:absolute;
+            right: 39px;
+        top:20px;
+           
+            display: inline-block;
+        }
+        .navbar{
+            display: inline-block;
+            
+        }
+        .navbar li{
+            
+            display: inline-block;
+            font-weight: bold;
+            font-size: 20px;
+            
+        }.navbar li a{
+            color: rgb(27, 236, 62);
+            text-decoration: none;
+            padding: 35px 91px;
+            box-shadow: 2px 2px 70px yellow;
+            border-radius:100%;
+            
+        
+            
+        }
+        .navbar li a:hover,.navbar li a:active{
+            text-decoration: underline;
+            color:rgb(240, 245, 240);
+            
+        }
+        .left img{
+           width: 58px;
+           filter: invert(100%);
+           border-radius: 200px;
+           margin-left: 25px;
+          
+        }
+        .left div{
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+            font-style: italic;
+            color: rgb(245, 241, 7);
+        }
+        .btn{
+           
+            background-color: black;
+            color:moccasin;
+            border-radius: 10px;
+            margin-top: 16px;
+            padding: 3px;
+            cursor: pointer;
+            margin-left: 12px;
+        }
+        .btn:hover{
+            color: orangered;
+            background-color: palegoldenrod;
+        }
+        .inp{
+            background-color: black;
+            color:moccasin;
+            border-radius: 10px;
+            margin: 183px 63px 5px 1px;
+            padding: 3px;
+        }
+        .container{
+         
+        
+         
+         padding:50px 90px;
+         width:20%;
+         margin: 180px 45px;
+         border-radius: 40px;
+        
+
+        }
+.container h1{
+    color: rgb(240, 15, 34);
+    background-color: sandybrown;
+}
+.container h3{
+    font-size: 25px;
+   
+   
+    color: rgb(223, 245, 23);
+}
+        .form-group input{
+            text-align:center ;
+            background-color: palegoldenrod;
+            display: block;
+            width: 300px;
+            padding:2px;
+            border:2px solid black;
+            margin: 6px -97px;
+            border-radius: 10px;
+            font-size:20px ;
+
+        }
+        footer{
+            background-color: black;
+            color: blanchedalmond;
+            height:40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            top: 0px;
+            left: 0px;
+            opacity: 0.70;
+        }
+        
+        
+
+ </style>
+ </head>
+ <body>
+     <header class="header">
+         <!-- left box for logo -->
+      <div class="left">
+    <img src="im/log.jpg" alt="">
+    <div><h4>SHIVAM CHANDRA</h4></div>
+      </div>
+<!-- mid for navbar -->
+      <div class="mid">
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+           
+        </ul>
+      </div>
+      <!-- right box for buttons  -->
+      <div class="right">
+
+<input type="text" class="inp" placeholder="Search"></input>
+      </div>
+     
+
+     </header>
+     <div class="container">
+         <h3 id="know">
+            May I Know You!! 
+         </h1>
+         <form action="backend.php" method="POST">
+             <div class="form-group">
+                 <input type="text" name="" placeholder="Enter your name">
+             </div>
+             <div class="form-group">
+                <input type="text" name="" placeholder="Relation with me">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Hobbies">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Favourite memory with me">
+            </div>
+            <button class="btn">Submit</button>
+         </form>
+
+     </div>
+     <footer>
+         <p>🙌🙌Thank you so much guys !! For your love and support..🙌🙌</p>
+     </footer>
+
+ </body>
+ </html>
